@@ -1,5 +1,5 @@
 ﻿# python_journey
-# devolope by Guido vann Rossonn in 1991
+# devolope by Guido van Rossum in 1991
  uses : 
  1. Machince Learnings 
  2. Software Development 
