@@ -17,3 +17,9 @@ B = 4
 print(A%B)
 
 # output - 2 (reminder)
+
+# Exponetiation operatore  - "**"
+# it calculate power of any value
+base = 2
+power = 3
+print( base ** power)
