@@ -23,3 +23,9 @@ print(A%B)
 base = 2
 power = 3
 print( base ** power)
+
+
+# floor Operatore - '//'
+c=10
+d= 7
+print(c//d)
