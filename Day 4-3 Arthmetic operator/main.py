@@ -5,3 +5,6 @@ print(x+y)
 
 # Substraction operator - '-'
 print(x-y)
+
+# Multification operator - '*'
+print(x*y)
