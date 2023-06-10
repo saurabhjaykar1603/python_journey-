@@ -9,6 +9,9 @@ print(x-y)
 # Multification operator - '*'
 print(x*y)
 
+# Division operator - '/'
+print(x/y)
+
 #modulus operatore - '%'
 # it calculate reminder
 
