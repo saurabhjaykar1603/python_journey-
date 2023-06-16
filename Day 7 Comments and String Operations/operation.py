@@ -27,3 +27,8 @@ newsent = sentence.replace("a","@")
 print(newsent)
 
 
+# split() method 
+stud = "yogita#harshada#Harsh#kunal"
+print(stud.split('#'))
+
+
