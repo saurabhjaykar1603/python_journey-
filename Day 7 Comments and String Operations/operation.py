@@ -32,7 +32,7 @@ stud = "yogita#harshada#Harsh#kunal"
 print(stud.split('#'))
 
 
-# double cote single cote operation 
+# double quotes single quotes operation 
 
 print ('she said, "how are you" ')
 print ("she said, 'how are you' ")
