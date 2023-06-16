@@ -13,3 +13,11 @@ print(newString)
 String = newString.lower()
 print(String)
 
+
+
+strip method for unnecessary  spaces
+str1 = "road to code"
+str2 = "road to                 "
+print(str1)
+print(str2.strip())
+
