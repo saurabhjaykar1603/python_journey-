@@ -37,4 +37,11 @@ print(stud.split('#'))
 print ('she said, "how are you" ')
 print ("she said, 'how are you' ")
 
+# Escape charactor  \
+
+print ('I\'m Good, She Said, How are you ?')
+
+
+
+
 
