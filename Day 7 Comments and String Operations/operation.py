@@ -21,3 +21,9 @@ str2 = "road to                 "
 print(str1)
 print(str2.strip())
 
+# replace method 
+sentence = "roadtocode"
+newsent = sentence.replace("a","@")
+print(newsent)
+
+
