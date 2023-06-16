@@ -15,7 +15,7 @@ print(String)
 
 
 
-strip method for unnecessary  spaces
+# strip method for unnecessary  spaces
 str1 = "road to code"
 str2 = "road to                 "
 print(str1)
