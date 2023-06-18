@@ -47,3 +47,10 @@ print("After clear : ",cars)
 alphabets = ['A','Z','C','V','P','R']
 alphabets.sort()
 print(alphabets)
+
+# Descending Order
+# To sort the list in descending order, we pass reverse=True as an argument to the sort() method. Here's the code:
+
+num = ['1','2','3','5','4']
+num.sort(reverse=True)
+print(num)
