@@ -37,3 +37,13 @@ print("Before clear :",cars)
 cars.clear()
 print("After clear : ",cars)
 
+
+# Sort
+# In Python, the sort() method is used to sort a list in-place, meaning it modifies the original list directly. It arranges the elements of the list in either ascending or descending order, depending on the arguments provided.
+
+# Ascending Order
+# To sort the list in ascending order, we simply call the sort() method on the list without passing any arguments or by passing reverse=False explicitly. Here's the
+
+alphabets = ['A','Z','C','V','P','R']
+alphabets.sort()
+print(alphabets)
