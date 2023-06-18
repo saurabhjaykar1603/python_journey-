@@ -20,3 +20,11 @@ fruit = ['appple','banana','orange','cherry']
 print("Before pop",fruit)
 fruit.pop(2)
 print("After pop",fruit)
+
+#Delet
+#The delete() method delete elements from the specified index.
+
+color = ["red","Green","Blue","orange"]
+print("Before delete : ",color)
+del color[1]
+print("After delete :",color)
