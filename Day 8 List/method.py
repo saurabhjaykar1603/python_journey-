@@ -28,3 +28,12 @@ color = ["red","Green","Blue","orange"]
 print("Before delete : ",color)
 del color[1]
 print("After delete :",color)
+
+# Clear
+# The clear() method removes all the elements from the list.
+
+cars = ["Thar", "Honda City","BMW","Skoda","Farari"]
+print("Before clear :",cars)
+cars.clear()
+print("After clear : ",cars)
+
