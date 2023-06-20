@@ -5,3 +5,8 @@ a = "Hello"
 b = "World"
 c = a + b
 print(c)
+
+s = "saurabh"
+j = " jaykar"
+d = s + j
+print(d)
