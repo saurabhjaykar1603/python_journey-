@@ -31,7 +31,13 @@ print("After adding Value : ",mycolors)
 
 # Remove Elements to Sets
 # Hard Removal => In this case we used remove() method and it is used to remove element from the set.
+# mycolors = {'orange','sky','pink','sky','green'}
+# print("Brfore remove : ",mycolors)
+# mycolors.remove('blue')
+# print("After remove :",mycolors)
+
+# Soft Removal => In this case we used discard() method.
 mycolors = {'orange','sky','pink','sky','green'}
-print("Brfore remove : ",mycolors)
-mycolors.remove('blue')
-print("After remove :",mycolors)
+print("Brfore discard : ",mycolors)
+mycolors.discard('blue')
+print("After discard :",mycolors)
