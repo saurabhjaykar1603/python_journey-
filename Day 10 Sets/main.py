@@ -41,3 +41,11 @@ mycolors = {'orange','sky','pink','sky','green'}
 print("Brfore discard : ",mycolors)
 mycolors.discard('blue')
 print("After discard :",mycolors)
+
+# Union of Sets
+# The union() method returns a set that contains all items from the original set, and all items from the specified set.
+
+colorList1 = {'sky','blue','white','black'}
+colorList2 = {'yellow','green','red','sky'}
+allElements = colorList1.union(colorList2)
+print(allElements)
