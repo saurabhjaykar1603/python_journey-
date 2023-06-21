@@ -49,3 +49,10 @@ colorList1 = {'sky','blue','white','black'}
 colorList2 = {'yellow','green','red','sky'}
 allElements = colorList1.union(colorList2)
 print(allElements)
+
+# Intersection of Sets
+# The intersection() method returns a set that contains the similarity between two or more sets.
+colorList1 = {'sky','blue','white','black'}
+colorList2 = {'yellow','green','red','sky','black'}
+sameElements = colorList1.intersection(colorList2)
+print(sameElements)
