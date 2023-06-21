@@ -28,3 +28,10 @@ mycolors = {'orange','sky','pink','sky','green'}
 print("Before adding Value : ",mycolors)
 mycolors.add('white')
 print("After adding Value : ",mycolors)
+
+# Remove Elements to Sets
+# Hard Removal => In this case we used remove() method and it is used to remove element from the set.
+mycolors = {'orange','sky','pink','sky','green'}
+print("Brfore remove : ",mycolors)
+mycolors.remove('blue')
+print("After remove :",mycolors)
