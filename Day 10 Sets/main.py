@@ -8,3 +8,9 @@
 
 mycolors = {'sky','pink','yellow','green'}
 print(mycolors)
+
+# Unindexed :
+# Unindexed means that the items in a set you can not access that items by position or index.
+
+mycolor = {'sky','pink','yellow','green','green'}
+print(mycolor)
