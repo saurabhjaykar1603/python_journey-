@@ -14,3 +14,9 @@ print(mycolors)
 
 mycolor = {'sky','pink','yellow','green','green'}
 print(mycolor)
+
+
+# Unique values :
+# Unique values means that the items in a set cannot contain duplicate items. If you try to add a duplicate items to a set, it will be ignored
+mycolor = {'orange','sky','pink','sky','green','sky','sky'}
+print(mycolor)
