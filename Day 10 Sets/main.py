@@ -20,3 +20,11 @@ print(mycolor)
 # Unique values means that the items in a set cannot contain duplicate items. If you try to add a duplicate items to a set, it will be ignored
 mycolor = {'orange','sky','pink','sky','green','sky','sky'}
 print(mycolor)
+
+# Adding values to Sets
+# add() method : The add() method is used to adds an element to the set. But position is not decide because set are unorderd.
+
+mycolors = {'orange','sky','pink','sky','green'}
+print("Before adding Value : ",mycolors)
+mycolors.add('white')
+print("After adding Value : ",mycolors)
