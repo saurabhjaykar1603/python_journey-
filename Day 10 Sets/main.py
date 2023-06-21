@@ -56,3 +56,10 @@ colorList1 = {'sky','blue','white','black'}
 colorList2 = {'yellow','green','red','sky','black'}
 sameElements = colorList1.intersection(colorList2)
 print(sameElements)
+
+# Symmetric Differnce
+# The symmetric_difference() method returns a set that ignore the similarity between two or more sets.
+colorList1 = {'sky','blue','white','black'}
+colorList2 = {'yellow','green','red','sky','black'}
+diffElements = colorList1.symmetric_difference(colorList2)
+print(diffElements)
