@@ -19,3 +19,20 @@ phoneBook = {
     "Pooja" : "878975457"
 }
 print(phoneBook.get("Avinash"))
+
+# Example by using get() method with the help of input:
+
+# following code use by Google Collab 
+# https://colab.research.google.com/drive/12DXICRgOye0tdsMbC_sNxE9jc52AQCP7?usp=sharing
+
+
+fruitsNameToImage = {
+    'Apple' : '🍎',
+    'Graphs' : '🍇',
+    'Banana' : '🍌',
+    'Orange' : '🍊',
+    'Cherry' : '🍒'
+}
+fruitKey = input("Enter fruit Name : ")
+image =fruitsNameToImage.get(fruitKey)
+print("{} Looks Like {}".format(fruitKey,image))
