@@ -26,13 +26,26 @@ print(phoneBook.get("Avinash"))
 # https://colab.research.google.com/drive/12DXICRgOye0tdsMbC_sNxE9jc52AQCP7?usp=sharing
 
 
-fruitsNameToImage = {
-    'Apple' : '🍎',
-    'Graphs' : '🍇',
-    'Banana' : '🍌',
-    'Orange' : '🍊',
-    'Cherry' : '🍒'
+# fruitsNameToImage = {
+#     'Apple' : '🍎',
+#     'Graphs' : '🍇',
+#     'Banana' : '🍌',
+#     'Orange' : '🍊',
+#     'Cherry' : '🍒'
+# }
+# fruitKey = input("Enter fruit Name : ")
+# image =fruitsNameToImage.get(fruitKey)
+# print("{} Looks Like {}".format(fruitKey,image))
+
+
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. The code then uses the keys() method of the courses dictionary to retrieve a list of all the keys in the dictionary.
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000"
 }
-fruitKey = input("Enter fruit Name : ")
-image =fruitsNameToImage.get(fruitKey)
-print("{} Looks Like {}".format(fruitKey,image))
+print(courses.keys())
