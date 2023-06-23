@@ -69,3 +69,20 @@ courses ={
 print(courses)
 courses["Java"] = "499"
 print(courses)
+
+
+# Update Key :
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. In the above example, we can update a Python value and print a directory in next line.
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000"
+}
+print(courses)
+courses["Python"] = "999"
+print(courses)
