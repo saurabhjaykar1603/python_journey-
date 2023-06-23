@@ -52,3 +52,20 @@ print(courses.keys())
 
 # The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. The code then uses the values() method of the courses dictionary to retrieve a list of all the values in the dictionary.
 print(courses.values())
+
+
+# Adding New Key 
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. In the above example, we can add a new course and the new course is Java and print a directory in next time.
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000"
+}
+print(courses)
+courses["Java"] = "499"
+print(courses)
