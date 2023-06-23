@@ -103,3 +103,20 @@ courses ={
 print(courses)
 courses.pop("Java")
 print(courses)
+
+# Clear Dictionary 
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. In the above example, we can clear all dictionary then we will use clear() method. The clear() method is used to clear all the dictionary.
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000",
+    'Java': '499'
+}
+print(courses)
+courses.clear()
+print(courses)
