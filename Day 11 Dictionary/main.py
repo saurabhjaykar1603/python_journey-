@@ -86,3 +86,20 @@ courses ={
 print(courses)
 courses["Python"] = "999"
 print(courses)
+
+# Remove key 
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. In the above example, we can use the pop() method and in a pop method we can pass one element and that element will be deleted.
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000",
+    'Java': '499'
+}
+print(courses)
+courses.pop("Java")
+print(courses)
