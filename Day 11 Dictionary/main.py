@@ -49,3 +49,6 @@ courses ={
     "ICGP" :"10,000"
 }
 print(courses.keys())
+
+# The code defines a dictionary named courses which contains key-value pairs where each key represents the name of a course and each value represents its price. The code then uses the values() method of the courses dictionary to retrieve a list of all the values in the dictionary.
+print(courses.values())
