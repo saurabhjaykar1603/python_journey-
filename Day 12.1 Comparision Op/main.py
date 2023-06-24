@@ -16,3 +16,9 @@ a = 10
 b=15
 result= a<b
 print(result)
+
+#3 greater than (>)
+a = 100
+b=50
+result= a>b
+print(result)
