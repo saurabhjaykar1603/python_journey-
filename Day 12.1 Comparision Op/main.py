@@ -10,3 +10,9 @@ a = 1
 b =2
 result = a==b
 print(result)
+
+# 2 less than (<)
+a = 10
+b=15
+result= a<b
+print(result)
