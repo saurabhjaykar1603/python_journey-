@@ -22,3 +22,17 @@ a = 100
 b=50
 result= a>b
 print(result)
+
+
+# 4 less than or equal to (<=)
+
+a=10
+b=20
+result = a<=b
+print(result)
+
+a=20
+b=20
+result = a<=b
+print(result)
+
