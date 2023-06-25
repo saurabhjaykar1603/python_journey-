@@ -30,7 +30,7 @@ else:
 YourAge = 18
 RequireAge = 18
 
-if a >= b:
+if YourAge>=RequireAge:
   print("Your eligible for voting")
 else:
   print("Your not eligible for voting")
