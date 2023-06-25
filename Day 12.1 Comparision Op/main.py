@@ -36,3 +36,19 @@ b=20
 result = a<=b
 print(result)
 
+# 5 greater than or equal to (>=)
+
+a =30
+b= 30
+result = a>=b
+print(result)
+
+a =50
+b= 30
+result = a>=b
+print(result)
+
+a =10
+b= 30
+result = a>=b
+print(result)
