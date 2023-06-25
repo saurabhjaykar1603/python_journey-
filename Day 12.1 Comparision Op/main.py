@@ -52,3 +52,15 @@ a =10
 b= 30
 result = a>=b
 print(result)
+
+# 6 not equal to (!=)
+a=10
+b=20
+result= a!=b
+print(result)
+
+a=20
+b=20
+result= a!=b
+print(result)
+
