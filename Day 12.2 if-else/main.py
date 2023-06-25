@@ -27,4 +27,10 @@ if a > b:
 else:
  print("b is greater than a")
         
-        
+YourAge = 18
+RequireAge = 18
+
+if a >= b:
+  print("Your eligible for voting")
+else:
+  print("Your not eligible for voting")
