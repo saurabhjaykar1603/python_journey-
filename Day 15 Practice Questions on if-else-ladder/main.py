@@ -23,3 +23,21 @@ elif per>=60:
   print("Grade D")
 else:
   print("FAIL")
+
+#   statement using condtional operators
+marathi,hindi,english,math,science= input("Enter Marks of 5 Subject : ").split()
+sum=int(marathi)+int(hindi)+int(english)+int(math)+int(science)
+per=(sum/500)*100
+print("Percentage :",per,"%")
+if per>=60 and per<70:
+  print("Grade D")
+elif per>=70 and per<80:
+  print("Grade C")
+elif per>=80 and per<90:
+  print("Grade B")
+elif per>=90 and per<=100:
+  print("Grade A")
+else:
+  print("FAIl")
+
+# https://colab.research.google.com/drive/1KKgI3-QqDnRHLD3eF1eMeRC6N9u2wSnG?usp=sharing
