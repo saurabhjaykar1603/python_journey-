@@ -22,3 +22,21 @@ else :
     # https://colab.research.google.com/drive/1rvoD_NyH0f3C7mmO4dW_6_DpjzIIMcU5?usp=sharing
 
 
+# code optimization 
+rate, quantity = input("Enter rate and Quantity").split()
+bill = int(rate)* int(quantity)
+disc_per = 0
+if bill >500:
+    disc_per =20
+else :
+    disc_per =5
+
+discount =(bill/100)*disc_per
+paybleAmount = bill - discount
+print("####{} OFF". format(disc_per))
+print("Actual Bill", bill)
+print("Discount",discount)
+print("Payble Amount :", paybleAmount)
+
+
+
