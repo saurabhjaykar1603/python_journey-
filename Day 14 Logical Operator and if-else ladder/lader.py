@@ -20,3 +20,20 @@ else :
 
 # use following google collab link to implement code 
 #   https://colab.research.google.com/drive/1JpKjnZsRuWiJ1eFwDFAQA3_Wfb6Fjw7z?usp=sharing
+
+# Anothor fruits Example
+name = input("Enter fruits or vegetable name :")
+if name=="onion":
+  print("🧅")
+elif name=="apple":
+  print("🍎")
+elif name=="banana":
+  print("🍌")
+elif name=="pineabpple":
+  print("🍍")
+else:
+  print("Not avilable")
+# use following google collab link to implement code 
+#   https://colab.research.google.com/drive/1JpKjnZsRuWiJ1eFwDFAQA3_Wfb6Fjw7z?usp=sharing
+
+  
