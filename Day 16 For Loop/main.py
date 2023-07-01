@@ -8,3 +8,10 @@
 
 for i in range(10):
     print("hello worls")
+
+n = int(input("How many time do you want to print :"))
+for i in range(n):
+    print(i,"Hello World")
+
+    # fellow use google colab link 
+    # https://colab.research.google.com/drive/1BA_w_O88H7HPh6kQVfhTlQg5gQNpjWX4?usp=sharing
