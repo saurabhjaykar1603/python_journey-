@@ -15,3 +15,10 @@ for i in range(n):
 
     # fellow use google colab link 
     # https://colab.research.google.com/drive/1BA_w_O88H7HPh6kQVfhTlQg5gQNpjWX4?usp=sharing
+
+num = int(input("Enter Number : "))
+for i in range(num):
+    if i%2==0:
+     print(i)
+        # fellow use google colab link 
+    # https://colab.research.google.com/drive/1BA_w_O88H7HPh6kQVfhTlQg5gQNpjWX4?usp=sharing
