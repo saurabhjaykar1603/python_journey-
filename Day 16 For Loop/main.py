@@ -22,3 +22,20 @@ for i in range(num):
      print(i)
         # fellow use google colab link 
     # https://colab.research.google.com/drive/1BA_w_O88H7HPh6kQVfhTlQg5gQNpjWX4?usp=sharing
+
+#    Write a program to reversed the Present Number.
+num = int(input("Enter Any Number :"))
+rev = 0
+while num>0:
+  rem = num % 10
+  rev = (rev*10)+rem
+  num = num // 10
+print("Reversed Number : ",rev)
+
+  # fellow use google colab link 
+ # https://colab.research.google.com/drive/1BA_w_O88H7HPh6kQVfhTlQg5gQNpjWX4?usp=sharing
+ 
+# Output
+
+# Enter Any Number :483675
+# Reversed Number : 576384
