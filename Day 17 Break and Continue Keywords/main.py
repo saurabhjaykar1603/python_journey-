@@ -53,6 +53,16 @@ tuple1 = (10,20,30,40,50)
 for tup in tuple1:
   print(tup)
 
+  # for loop using dictionary
+  courses = {
+    "c":499,
+    "C++":499,
+    "icp":999,
+    "IGCP":10000
+  }
+for i in courses.keys():
+  print(i)
+  
 
 
 
