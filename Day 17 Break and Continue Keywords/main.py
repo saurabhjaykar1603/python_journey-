@@ -24,14 +24,32 @@ else :
   print("Loop Executed successfully")
 
 # factorial keyword 
-number = int(input("Please enter any Number"))
-fact = 1
+# number = int(input("Please enter any Number"))
+# fact = 1
 
-for i in range(1,number+1):
- fact = fact * 1
-print(fact)
+# for i in range(1,number+1):
+#  fact = fact * 1
+# print(fact)
 
 # fellow use google colab link 
 # https://colab.research.google.com/drive/1eq8Xfe-7rG2GjWEMfeCQ8u0elt9y80xg?usp=sharing
+
+# for loop using list
+# example 1
+student = ["Achal", "Meghana","Dolly"]
+for student in student:
+  print("Sending Mail to ...",student)
+
+
+marks = [90,80,70,56,78]
+sum = 0
+for mark in marks:
+  sum = sum+mark
+print(sum)
+
+
+
+
+
   
 
