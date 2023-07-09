@@ -47,6 +47,13 @@ for mark in marks:
   sum = sum+mark
 print(sum)
 
+# for loop using tuple
+
+tuple1 = (10,20,30,40,50)
+for tup in tuple1:
+  print(tup)
+
+
 
 
 
