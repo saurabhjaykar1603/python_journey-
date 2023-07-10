@@ -22,5 +22,20 @@ print("Total Digit :", count)
 # fellow use google colab link 
 # https://colab.research.google.com/drive/1skxDSTMO_UIenfMJMJpXTvd7A5WBXTOo?usp=sharing
 
+# write a program to reversed the present number 
+num = int(input("Enter a Number :"))
+rev = 0
+while num>0:
+ rem = num % 10
+ rev = (rev*10)+rem
+ num = num //10
+print("Reversed Number : ", rev)
+# fellow use google colab link 
+# https://colab.research.google.com/drive/1skxDSTMO_UIenfMJMJpXTvd7A5WBXTOo?usp=sharing
+
+
+
+
+
 
 
