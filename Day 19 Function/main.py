@@ -32,3 +32,14 @@ def cal_sq(num):
     return sq
 ans = cal_sq(5)
 print(ans)
+
+# example using user input
+def sqaure():
+    num = int(input("enter num : "))
+    sq = num *num
+    return sq
+ans = sqaure()
+print(ans)
+
+#  fellow use google colab link 
+# https://colab.research.google.com/drive/1u3hc65cfyiT-xOWG3oOI61EKnMi3BKNh?usp=sharing
