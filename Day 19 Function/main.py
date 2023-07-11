@@ -43,3 +43,15 @@ print(ans)
 
 #  fellow use google colab link 
 # https://colab.research.google.com/drive/1u3hc65cfyiT-xOWG3oOI61EKnMi3BKNh?usp=sharing
+
+
+
+# one or more parameters pass 
+def add_two(num1,num2):
+    sum = num1+num2
+    print("Sum : ",sum)
+add_two(10,10)
+add_two(10,20)
+add_two(10,30)
+
+    
