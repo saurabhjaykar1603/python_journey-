@@ -14,5 +14,14 @@ cal_si()
 # https://colab.research.google.com/drive/1gi3oa3hGNSUXjjfuenS8z9sN2QwwTK1c?usp=sharing
 
 
+# Argument but no return solution no . 2
 
- 
+def cal_si(p,r,t):
+    si = (p*r*t)/100
+    print(si)
+Amount = int(input("Enter Amount : "))
+Rate = int(input("Enter Rate : "))
+Time = int(input("Enter Time : "))
+
+#  fellow use google colab link 
+# https://colab.research.google.com/drive/1gi3oa3hGNSUXjjfuenS8z9sN2QwwTK1c?usp=sharing
