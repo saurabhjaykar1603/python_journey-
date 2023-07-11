@@ -25,3 +25,13 @@ Time = int(input("Enter Time : "))
 
 #  fellow use google colab link 
 # https://colab.research.google.com/drive/1gi3oa3hGNSUXjjfuenS8z9sN2QwwTK1c?usp=sharing
+
+# no argument but return solution no . 3
+def cal_si():
+    p = int(input("Enter Principle : "))
+    r = int(input("Enter Rate : "))
+    t = int(input("Enter time : "))
+    si = p*r*t/100
+    return si
+ans = cal_si()
+print(ans)
