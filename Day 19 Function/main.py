@@ -17,3 +17,10 @@ def func(val1):
 func(10)
 func(20)
 func(30)
+
+# write a programm to find square of number using function 
+def cal_square(num):
+    square = num * num
+    print("square : ",square)
+cal_square(5)
+cal_square(10)
