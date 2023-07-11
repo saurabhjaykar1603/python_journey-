@@ -1,0 +1,18 @@
+# write a program to find simple interest using function all cases
+# HINT : simple interest = (P * T * R)*100 P is the Principle amount T is time and R is the rate 
+
+# no argument and no return - solution no. 1
+def cal_si():
+    p = int(input("Enter Principle : "))
+    r = int(input("Enter rate of interest : "))
+    t = int(input("Enter Time of period : "))
+    si = p*r*t/100
+    print(si)
+cal_si()
+
+#  fellow use google colab link 
+# https://colab.research.google.com/drive/1gi3oa3hGNSUXjjfuenS8z9sN2QwwTK1c?usp=sharing
+
+
+
+ 
