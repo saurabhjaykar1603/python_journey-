@@ -24,3 +24,11 @@ def cal_square(num):
     print("square : ",square)
 cal_square(5)
 cal_square(10)
+
+
+# return values in python 
+def cal_sq(num):
+    sq = num *num
+    return sq
+ans = cal_sq(5)
+print(ans)
