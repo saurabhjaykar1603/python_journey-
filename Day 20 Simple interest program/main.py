@@ -35,3 +35,19 @@ def cal_si():
     return si
 ans = cal_si()
 print(ans)
+
+# argument and return 
+def cal_si(p,r,t):
+    si = p*r*t/100
+    return si
+Amount = int(input("Enter Amount : "))
+Rate = int(input("Enter Rate : "))
+Time = int(input("Enter Time : "))
+
+ans = cal_si(Amount,Rate,Time)
+print(ans)
+
+
+#  fellow use google colab link 
+# https://colab.research.google.com/drive/1gi3oa3hGNSUXjjfuenS8z9sN2QwwTK1c?usp=sharing
+
