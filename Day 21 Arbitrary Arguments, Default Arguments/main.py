@@ -14,3 +14,17 @@ def greetings(* students):
     for i in students:
         print("Hello", i)
 greetings("Harshal","Tushar","Ganesh")
+
+
+# Default Arguments 
+def greeting(name = "Saurabh"):
+    print("Hello",name,"How are You ?")
+greeting()
+
+# another example
+
+def fruits(fruit1, fruit2="mango", fruit3="banana"):
+    print(fruit1)
+    print(fruit2)
+    print(fruit3)
+fruits("apple")
