@@ -29,6 +29,8 @@ print("Year", currentDate.year)
 print("month", currentDate.month)
 print("day", currentDate.day)
 
+import datetime
+print("Dayname : ", currentDate.strftime("%A"))
 
 
 
