@@ -25,6 +25,9 @@ print(newNumber1)
 import datetime
 currentDate = datetime.datetime.now()
 print(currentDate)
+print("Year", currentDate.year)
+print("month", currentDate.month)
+print("day", currentDate.day)
 
 
 
