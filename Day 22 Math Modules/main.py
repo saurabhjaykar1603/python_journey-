@@ -12,3 +12,15 @@ import math
 num1 = 120.8
 newNumber1 = math.floor(num1)
 print(newNumber1)
+
+# math.sqrt() method 
+# to find squareroot 
+import math 
+num = int(input("Enter number...."))
+ans = math.sqrt(num)
+print(ans)
+# https://colab.research.google.com/drive/1ZZvq5sWcw7xTePtTi0tp7UriPxBXm0jJ?usp=sharing
+
+
+
+
